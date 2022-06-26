@@ -7,8 +7,7 @@ contract Name {
     function setName(string memory _name) public{
         myName = _name;
     }
-    
-    //create a function the reads the mood from the smart contract
+
     function getName() public view returns(string memory){
         return myName;
     }
